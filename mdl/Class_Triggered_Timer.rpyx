@@ -75,8 +75,9 @@
 			</IPropertyContainer>
 			</_properties>
 			<_name type="a">Class_Triggered_Timer</_name>
-			<_modifiedTimeWeak type="a">4.27.2020::7:44:6</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.27.2020::7:44:6</_modifiedTime>
+			<_modifiedTimeWeak type="a">8.13.2020::8:44:19</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.13.2020::8:44:19</_modifiedTime>
+			<_lastID type="a">1</_lastID>
 			<_UserColors type="w">
 				<IRPYRawContainer type="e">
 					<size type="a">16</size>
@@ -158,6 +159,8 @@
 				<value>GUID 8bd5e492-f817-4ae3-bbe5-45e3bd35c53b</value>
 				<value>GUID fb48d6a1-4193-4abc-a7e4-2e98bfe4df96</value>
 				<value>GUID bb29a72d-49ef-4089-aecf-c6eccb6b7ac8</value>
+				<value>GUID 88f85ef3-0683-4a3e-90c0-db97a0475fd0</value>
+				<value>GUID a9655b06-6a6c-45ab-9c28-f95a0226a99d</value>
 				<value>GUID 9384d3a1-0142-4092-aa5f-79024d9ea849</value>
 			</AggregatesList>
 		</IProject>
@@ -167,28 +170,38 @@
 		</ISubsystem>
 		<IProfile type="e">
 			<fileName type="a">Software_Detailed_Design_Metamodel</fileName>
-			<_persistAs type="a">C:\Users\uidj8371\Documents\Software_Model_Toolset\Rhapsody_Profiles</_persistAs>
+			<_persistAs type="a">..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles</_persistAs>
 			<_id type="a">GUID e6dd7000-5327-4839-ad4b-6da8f8351563</_id>
 			<_partOfTheModelKind type="a">referenceunit</_partOfTheModelKind>
 		</IProfile>
 		<IProfile type="e">
 			<fileName type="a">Project_Metamodel</fileName>
-			<_persistAs type="a">C:\Users\uidj8371\Documents\Software_Model_Toolset\Rhapsody_Profiles</_persistAs>
+			<_persistAs type="a">..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles</_persistAs>
 			<_id type="a">GUID 8bd5e492-f817-4ae3-bbe5-45e3bd35c53b</_id>
 			<_partOfTheModelKind type="a">referenceunit</_partOfTheModelKind>
 		</IProfile>
 		<IProfile type="e">
 			<fileName type="a">Software_Data_Type_Metamodel</fileName>
-			<_persistAs type="a">C:\Users\uidj8371\Documents\Software_Model_Toolset\Rhapsody_Profiles</_persistAs>
+			<_persistAs type="a">..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles</_persistAs>
 			<_id type="a">GUID fb48d6a1-4193-4abc-a7e4-2e98bfe4df96</_id>
 			<_partOfTheModelKind type="a">referenceunit</_partOfTheModelKind>
 		</IProfile>
 		<IProfile type="e">
 			<fileName type="a">Physical_Software_Architecture_Metamodel</fileName>
-			<_persistAs type="a">C:\Users\uidj8371\Documents\Software_Model_Toolset\Rhapsody_Profiles</_persistAs>
+			<_persistAs type="a">..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles</_persistAs>
 			<_id type="a">GUID bb29a72d-49ef-4089-aecf-c6eccb6b7ac8</_id>
 			<_partOfTheModelKind type="a">referenceunit</_partOfTheModelKind>
 		</IProfile>
+		<IProfile type="e">
+			<fileName type="a">Software_Implementation_Metamodel</fileName>
+			<_persistAs type="a">..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles</_persistAs>
+			<_id type="a">GUID 88f85ef3-0683-4a3e-90c0-db97a0475fd0</_id>
+			<_partOfTheModelKind type="a">referenceunit</_partOfTheModelKind>
+		</IProfile>
+		<ISubsystem type="e">
+			<fileName type="a">Class_Triggered_Timer_Implementation</fileName>
+			<_id type="a">GUID a9655b06-6a6c-45ab-9c28-f95a0226a99d</_id>
+		</ISubsystem>
 		<IComponent type="e">
 			<_id type="a">GUID 9384d3a1-0142-4092-aa5f-79024d9ea849</_id>
 			<_myState type="a">139264</_myState>
@@ -205,7 +218,7 @@
 			</m_configActive>
 			<HandlesInMe type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">5</size>
+					<size type="a">7</size>
 					
 						<IHandle type="e">
 							<_hm2Class type="a">ISubsystem</_hm2Class>
@@ -239,6 +252,20 @@
 							<_hm2Class type="a">IProfile</_hm2Class>
 							<_hname type="a">Physical_Software_Architecture_Metamodel</_hname>
 							<_hid type="a">GUID bb29a72d-49ef-4089-aecf-c6eccb6b7ac8</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IProfile</_hm2Class>
+							<_hname type="a">Software_Implementation_Metamodel</_hname>
+							<_hid type="a">GUID 88f85ef3-0683-4a3e-90c0-db97a0475fd0</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hname type="a">Class_Triggered_Timer_Implementation</_hname>
+							<_hid type="a">GUID a9655b06-6a6c-45ab-9c28-f95a0226a99d</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
