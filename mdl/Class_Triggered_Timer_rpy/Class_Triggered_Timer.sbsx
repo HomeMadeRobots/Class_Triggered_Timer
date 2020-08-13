@@ -25,14 +25,14 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">4.27.2020::11:45:7</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">8.13.2020::8:40:22</_modifiedTimeWeak>
 			<_description type="p"><IDescription type="e">
 				<_text type="a">This package gathers elements allowing to define the class Class_Triggered_Timer.</_text>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">4.27.2020::11:45:7</_modifiedTime>
+			<_modifiedTime type="a">8.13.2020::8:40:22</_modifiedTime>
 			<_lastID type="a">6</_lastID>
-			<weakCGTime type="a">4.27.2020::11:45:7</weakCGTime>
+			<weakCGTime type="a">8.13.2020::8:40:22</weakCGTime>
 			<strongCGTime type="a">4.24.2020::18:22:4</strongCGTime>
 			<_defaultComposite type="s">GUID af14b516-7e9f-4f02-8cf2-9b6a23f071bd</_defaultComposite>
 			<_eventsBaseID type="a">9601</_eventsBaseID>
@@ -358,8 +358,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.27.2020::11:45:7</_modifiedTime>
-			<_lastModifiedTime type="a">4.27.2020::11:45:7</_lastModifiedTime>
+			<_modifiedTime type="a">8.13.2020::8:40:39</_modifiedTime>
+			<_lastModifiedTime type="a">8.13.2020::8:40:39</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -594,14 +594,52 @@
 			<_properties type="p"><IPropertyContainer type="e">
 				<Subjects type="c">
 					<IRPYRawContainer type="e">
-						<size type="a">1</size>
+						<size type="a">2</size>
 						<IPropertySubject type="e">
-							<_Name type="a">ObjectModelGe</_Name>
+							<_Name type="a">General</_Name>
 							<Metaclasses type="c">
 								<IRPYRawContainer type="e">
 									<size type="a">1</size>
 									<IPropertyMetaclass type="e">
+										<_Name type="a">Graphics</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">1</size>
+												<IProperty type="e">
+													<_Name type="a">AssociatedImageFile</_Name>
+													<_Type type="a">File</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+						<IPropertySubject type="e">
+							<_Name type="a">ObjectModelGe</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<size type="a">2</size>
+									<IPropertyMetaclass type="e">
 										<_Name type="a">Class</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">1</size>
+												<IProperty type="e">
+													<_Name type="a">Compartments</_Name>
+													<_Value type="a">Description,Attribute,Operation</_Value>
+													<_Type type="a">MultiLine</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+									<IPropertyMetaclass type="e">
+										<_Name type="a">SDD_Class</_Name>
 										<Properties type="c">
 											<IRPYRawContainer type="e">
 												<size type="a">1</size>
@@ -715,12 +753,6 @@
 			<m_displayOption type="a">All</m_displayOption>
 			<m_bShowInherited type="a">1</m_bShowInherited>
 			<m_bOrdered type="a">0</m_bOrdered>
-			<_itemValueOfFontPropertiesMapCount type="a">5</_itemValueOfFontPropertiesMapCount>
-			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
-			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
-			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
-			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
-			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
 		</CGICompartment>
 		<CGICompartment type="e">
 			<_id type="a">GUID e1ae6e08-5a41-476f-8135-d40cd000de8c</_id>
@@ -796,7 +828,7 @@
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
 				<CGIText type="e">
-					<m_str type="a">Send</m_str>
+					<m_str type="a">Event_Sending</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -4456,8 +4488,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.27.2020::11:44:54</_modifiedTime>
-			<_lastModifiedTime type="a">4.27.2020::11:44:54</_lastModifiedTime>
+			<_modifiedTime type="a">8.13.2020::8:40:22</_modifiedTime>
+			<_lastModifiedTime type="a">8.13.2020::8:40:22</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -4697,14 +4729,52 @@
 			<_properties type="p"><IPropertyContainer type="e">
 				<Subjects type="c">
 					<IRPYRawContainer type="e">
-						<size type="a">1</size>
+						<size type="a">2</size>
 						<IPropertySubject type="e">
-							<_Name type="a">ObjectModelGe</_Name>
+							<_Name type="a">General</_Name>
 							<Metaclasses type="c">
 								<IRPYRawContainer type="e">
 									<size type="a">1</size>
 									<IPropertyMetaclass type="e">
+										<_Name type="a">Graphics</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">1</size>
+												<IProperty type="e">
+													<_Name type="a">AssociatedImageFile</_Name>
+													<_Type type="a">File</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+						<IPropertySubject type="e">
+							<_Name type="a">ObjectModelGe</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<size type="a">2</size>
+									<IPropertyMetaclass type="e">
 										<_Name type="a">Class</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">1</size>
+												<IProperty type="e">
+													<_Name type="a">Compartments</_Name>
+													<_Value type="a">Attribute,Operation</_Value>
+													<_Type type="a">MultiLine</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+									<IPropertyMetaclass type="e">
+										<_Name type="a">SDD_Class</_Name>
 										<Properties type="c">
 											<IRPYRawContainer type="e">
 												<size type="a">1</size>
@@ -4752,7 +4822,7 @@
 					<m_nOrientationCtrlPt type="a">5</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_name>
-			<m_drawBehavior type="a">397352</m_drawBehavior>
+			<m_drawBehavior type="a">397416</m_drawBehavior>
 			<m_transform type="a">0.334278 0 0 0.206774 280.331 83.9715 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
@@ -4797,26 +4867,12 @@
 			<_id type="a">GUID 12c30a1d-7703-4226-9534-84709e86585d</_id>
 			<_rmmServerID type="a">-1</_rmmServerID>
 			<m_name type="a">Attribute</m_name>
-			<m_displayOption type="a">Explicit</m_displayOption>
+			<m_displayOption type="a">All</m_displayOption>
 			<m_bShowInherited type="a">1</m_bShowInherited>
 			<m_bOrdered type="a">0</m_bOrdered>
-			<Items type="c">
-				<IRPYRawContainer type="e">
-					<size type="a">2</size>
-					
-						<IHandle type="e">
-							<_hm2Class type="a">IAttribute</_hm2Class>
-							<_hid type="a">GUID dba39aad-aae1-4ed2-903a-e18da02bcab8</_hid>
-						</IHandle>
-					
-					
-						<IHandle type="e">
-							<_hm2Class type="a">IAttribute</_hm2Class>
-							<_hid type="a">GUID 2b0d2e19-8ffa-4542-9fbc-cd882c91483b</_hid>
-						</IHandle>
-					
-				</IRPYRawContainer>
-			</Items>
+			<_itemValueOfFontPropertiesMapCount type="a">2</_itemValueOfFontPropertiesMapCount>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
 		</CGICompartment>
 		<CGICompartment type="e">
 			<_id type="a">GUID 4da2bb31-be54-454c-b04c-47aed0e5f191</_id>
@@ -4825,12 +4881,6 @@
 			<m_displayOption type="a">All</m_displayOption>
 			<m_bShowInherited type="a">1</m_bShowInherited>
 			<m_bOrdered type="a">0</m_bOrdered>
-			<_itemValueOfFontPropertiesMapCount type="a">5</_itemValueOfFontPropertiesMapCount>
-			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
-			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
-			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
-			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
-			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
 		</CGICompartment>
 		<CGIInheritance type="e">
 			<_id type="a">GUID cce83909-b628-4ad7-900c-2a4fe46a659e</_id>
@@ -4900,7 +4950,7 @@
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
 				<CGIText type="e">
-					<m_str type="a">Send</m_str>
+					<m_str type="a">Event_Sending</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -4980,7 +5030,21 @@
 			</IPropertyContainer>
 			</_properties>
 			<_name type="a">Class_Triggered_Timer</_name>
-			<_modifiedTimeWeak type="a">4.27.2020::11:44:53</_modifiedTimeWeak>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Detailed_Design_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Software_Detailed_Design_Metamodel::Stereotypes::SDD_Class</_hsubsystem>
+							<_hname type="a">SDD_Class</_hname>
+							<_hid type="a">GUID 9db356bc-6146-4703-a6f1-f05eb819dbfa</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">8.13.2020::8:39:42</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -4991,10 +5055,10 @@
 				<_text type="a">The class Class_Triggered_Timer is used to measure a defined elapsed time and to send an event on time-up. It shall be periodically triggered by a OS cyclic task.</_text>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">4.27.2020::11:44:53</_modifiedTime>
+			<_modifiedTime type="a">8.13.2020::8:39:42</_modifiedTime>
 			<_lastID type="a">8</_lastID>
-			<weakCGTime type="a">4.27.2020::11:44:53</weakCGTime>
-			<strongCGTime type="a">4.27.2020::7:44:18</strongCGTime>
+			<weakCGTime type="a">8.13.2020::8:39:42</weakCGTime>
+			<strongCGTime type="a">8.13.2020::8:38:13</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -5021,15 +5085,16 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
-							<_hname type="a">Send</_hname>
-							<_hid type="a">GUID 5fd5bed0-f4fe-4b10-bced-8e6eb85b1689</_hid>
+							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Detailed_Design_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Software_Detailed_Design_Metamodel::Stereotypes::SDD_Class</_hsubsystem>
+							<_hname type="a">Event_Sending</_hname>
+							<_hid type="a">GUID d291d4d1-7c14-4297-a64a-9d1c5e46cc2e</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">2.13.2020::12:57:39</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.13.2020::12:57:39</_modifiedTime>
+			<_modifiedTimeWeak type="a">8.13.2020::8:39:12</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.13.2020::8:39:12</_modifiedTime>
 			<_dependsOn type="r">
 				<INObjectHandle type="e">
 					<_hm2Class type="a">IEvent</_hm2Class>
@@ -5048,14 +5113,28 @@
 			<_myState type="a">8192</_myState>
 			<_name type="a">Start</_name>
 			<_displayName type="a">Start( IN time : uint32 )</_displayName>
-			<_modifiedTimeWeak type="a">4.27.2020::11:43:19</_modifiedTimeWeak>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Detailed_Design_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Software_Detailed_Design_Metamodel::Stereotypes::SDD_Class</_hsubsystem>
+							<_hname type="a">Public_Method</_hname>
+							<_hid type="a">GUID ecaa2fe0-5d3b-4cc3-9862-9159c7ea16d8</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">8.13.2020::8:39:25</_modifiedTimeWeak>
 			<_description type="p"><IDescription type="e">
 				<_text type="a">'Start' method allows to start the timer for a given amount of time.%0D
 %0D
 If the method is called before the time-up, the timer is re-started for the new given amount of time.</_text>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">4.27.2020::11:43:19</_modifiedTime>
+			<_modifiedTime type="a">8.13.2020::8:39:25</_modifiedTime>
 			<_lastID type="a">3</_lastID>
 			<_virtual type="a">0</_virtual>
 			<_abstract type="a">0</_abstract>
@@ -5071,10 +5150,10 @@ If the method is called before the time-up, the timer is re-started for the new 
 				<_id type="a">GUID 733acb5b-3768-40da-bf83-11d1f97bedae</_id>
 				<_myState type="a">8192</_myState>
 				<_name type="a">Class_Triggered_Timer__Start</_name>
-				<_modifiedTimeWeak type="a">4.27.2020::7:51:10</_modifiedTimeWeak>
-				<_modifiedTime type="a">4.27.2020::7:51:38</_modifiedTime>
+				<_modifiedTimeWeak type="a">8.13.2020::8:38:57</_modifiedTimeWeak>
+				<_modifiedTime type="a">8.13.2020::8:38:57</_modifiedTime>
 				<_lastID type="a">65</_lastID>
-				<weakCGTime type="a">4.27.2020::7:51:10</weakCGTime>
+				<weakCGTime type="a">8.13.2020::8:38:57</weakCGTime>
 				<strongCGTime type="a">4.27.2020::7:45:1</strongCGTime>
 				<_itsStateChart type="r">
 					<IHandle type="e">
@@ -5082,7 +5161,7 @@ If the method is called before the time-up, the timer is re-started for the new 
 				</_itsStateChart>
 				<_classModifier type="a">Unspecified</_classModifier>
 				<_defNumber type="a">20</_defNumber>
-				<_version type="a">4.27.2020::9:51:38</_version>
+				<_version type="a">8.13.2020::10:38:57</_version>
 				<_baseVersion type="a">1.2.1990::0:0:0</_baseVersion>
 				<_diagram type="s">GUID e268893b-1f94-45c2-91e0-1f71e3441031</_diagram>
 				<AggregatesList type="e">
@@ -5269,7 +5348,7 @@ If the method is called before the time-up, the timer is re-started for the new 
 			<ILabel type="e">
 				<_id type="a">GUID b618688d-ca14-4c28-8fa7-14a052b75a08</_id>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+				<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 				<_itsTrigger>NULL</_itsTrigger>
 				<_itsGuard>NULL</_itsGuard>
 				<_itsAction>NULL</_itsAction>
@@ -5303,7 +5382,7 @@ If the method is called before the time-up, the timer is re-started for the new 
 			<ILabel type="e">
 				<_id type="a">GUID 3ecfe338-c808-4150-a93c-9cabb690f2cc</_id>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+				<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 				<_itsTrigger>NULL</_itsTrigger>
 				<_itsGuard>NULL</_itsGuard>
 				<_itsAction>NULL</_itsAction>
@@ -5383,16 +5462,16 @@ If the method is called before the time-up, the timer is re-started for the new 
 			<IState type="e">
 				<_id type="a">GUID 998caf2f-2446-46c0-9dce-3e2c1e8ace3f</_id>
 				<_name type="a">Send_Time_Is_Up</_name>
-				<_modifiedTimeWeak type="a">2.13.2020::14:21:38</_modifiedTimeWeak>
-				<_modifiedTime type="a">2.13.2020::14:21:38</_modifiedTime>
+				<_modifiedTimeWeak type="a">8.13.2020::8:38:57</_modifiedTimeWeak>
+				<_modifiedTime type="a">8.13.2020::8:38:57</_modifiedTime>
 				<_parent type="s">GUID 1d3e0a2c-3329-44e4-9a43-3cd946f9b7b4</_parent>
 				<_stateType type="a">EventState</_stateType>
 				<_defaultTrans type="s"></_defaultTrans>
 				<_entryAction type="p"><ISendAction type="e">
 					<_id type="a">GUID 91576656-c214-418c-8f51-31c3167be25c</_id>
 					<_myState type="a">4096</_myState>
-					<_modifiedTimeWeak type="a">2.13.2020::14:21:38</_modifiedTimeWeak>
-					<_modifiedTime type="a">2.13.2020::14:21:38</_modifiedTime>
+					<_modifiedTimeWeak type="a">8.13.2020::8:38:57</_modifiedTimeWeak>
+					<_modifiedTime type="a">8.13.2020::8:38:57</_modifiedTime>
 					<m_hTarget type="r">
 						<IHandle type="e">
 						</IHandle>
@@ -5457,7 +5536,7 @@ If the method is called before the time-up, the timer is re-started for the new 
 					<_id type="a">GUID b6f835ff-2c23-4ca3-92d3-5bcc14d030fb</_id>
 					<_myState type="a">4096</_myState>
 					<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-					<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+					<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 					<_body type="a">Counter = time / Recurrence_Millisecond </_body>
 				</IAction>
 				</_entryAction>
@@ -6072,9 +6151,9 @@ If the method is called before the time-up, the timer is re-started for the new 
 				</IPropertyContainer>
 				</_properties>
 				<_name type="a">activitydiagram_0</_name>
-				<_modifiedTimeWeak type="a">4.27.2020::7:51:10</_modifiedTimeWeak>
-				<_modifiedTime type="a">4.27.2020::7:51:38</_modifiedTime>
-				<_lastModifiedTime type="a">4.27.2020::7:51:38</_lastModifiedTime>
+				<_modifiedTimeWeak type="a">8.13.2020::8:38:57</_modifiedTimeWeak>
+				<_modifiedTime type="a">8.13.2020::8:39:25</_modifiedTime>
+				<_lastModifiedTime type="a">8.13.2020::8:39:25</_lastModifiedTime>
 				<m_hReferencedDiagram type="r">
 					<IHandle type="e">
 					</IHandle>
@@ -7421,12 +7500,26 @@ If the method is called before the time-up, the timer is re-started for the new 
 			<_myState type="a">8192</_myState>
 			<_name type="a">Stop</_name>
 			<_displayName type="a">Stop()</_displayName>
-			<_modifiedTimeWeak type="a">4.27.2020::11:44:11</_modifiedTimeWeak>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Detailed_Design_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Software_Detailed_Design_Metamodel::Stereotypes::SDD_Class</_hsubsystem>
+							<_hname type="a">Public_Method</_hname>
+							<_hid type="a">GUID ecaa2fe0-5d3b-4cc3-9862-9159c7ea16d8</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">8.13.2020::8:39:30</_modifiedTimeWeak>
 			<_description type="p"><IDescription type="e">
 				<_text type="a">'Stop' method allows to cancel the timer. The 'Time_Is_Up' event will not be sent.</_text>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">4.27.2020::11:44:11</_modifiedTime>
+			<_modifiedTime type="a">8.13.2020::8:39:30</_modifiedTime>
 			<_lastID type="a">2</_lastID>
 			<_virtual type="a">0</_virtual>
 			<Args type="c">
@@ -7447,10 +7540,10 @@ If the method is called before the time-up, the timer is re-started for the new 
 				<_id type="a">GUID 0681833a-2823-4915-b6ba-8793cb73cd86</_id>
 				<_myState type="a">8192</_myState>
 				<_name type="a">Class_Triggered_Timer__Stop</_name>
-				<_modifiedTimeWeak type="a">4.27.2020::7:54:29</_modifiedTimeWeak>
-				<_modifiedTime type="a">4.27.2020::7:55:42</_modifiedTime>
+				<_modifiedTimeWeak type="a">8.13.2020::8:39:30</_modifiedTimeWeak>
+				<_modifiedTime type="a">8.13.2020::8:39:30</_modifiedTime>
 				<_lastID type="a">4</_lastID>
-				<weakCGTime type="a">4.27.2020::7:54:29</weakCGTime>
+				<weakCGTime type="a">8.13.2020::8:39:30</weakCGTime>
 				<strongCGTime type="a">4.27.2020::7:54:3</strongCGTime>
 				<_itsStateChart type="r">
 					<IHandle type="e">
@@ -7458,11 +7551,6 @@ If the method is called before the time-up, the timer is re-started for the new 
 				</_itsStateChart>
 				<_classModifier type="a">Unspecified</_classModifier>
 				<_defNumber type="a">4</_defNumber>
-				<Connectors type="c">
-					<IRPYRawContainer type="e">
-						<size type="a">0</size>
-					</IRPYRawContainer>
-				</Connectors>
 				<_version type="a">4.27.2020::9:55:42</_version>
 				<_baseVersion type="a">1.2.1990::0:0:0</_baseVersion>
 				<_diagram type="s">GUID b34f9abb-346e-43b6-a4b8-8e782edc5f8a</_diagram>
@@ -7858,9 +7946,9 @@ If the method is called before the time-up, the timer is re-started for the new 
 				</IPropertyContainer>
 				</_properties>
 				<_name type="a">activitydiagram_0</_name>
-				<_modifiedTimeWeak type="a">4.27.2020::7:54:19</_modifiedTimeWeak>
-				<_modifiedTime type="a">4.27.2020::7:55:42</_modifiedTime>
-				<_lastModifiedTime type="a">4.27.2020::7:55:42</_lastModifiedTime>
+				<_modifiedTimeWeak type="a">8.13.2020::8:39:30</_modifiedTimeWeak>
+				<_modifiedTime type="a">8.13.2020::8:39:30</_modifiedTime>
+				<_lastModifiedTime type="a">8.13.2020::8:39:30</_lastModifiedTime>
 				<m_hReferencedDiagram type="r">
 					<IHandle type="e">
 					</IHandle>
@@ -8373,12 +8461,26 @@ If the method is called before the time-up, the timer is re-started for the new 
 			<_myState type="a">8192</_myState>
 			<_name type="a">Tick</_name>
 			<_displayName type="a">Tick()</_displayName>
-			<_modifiedTimeWeak type="a">4.27.2020::7:59:8</_modifiedTimeWeak>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Detailed_Design_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Software_Detailed_Design_Metamodel::Stereotypes::SDD_Class</_hsubsystem>
+							<_hname type="a">Public_Method</_hname>
+							<_hid type="a">GUID ecaa2fe0-5d3b-4cc3-9862-9159c7ea16d8</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">8.13.2020::8:39:34</_modifiedTimeWeak>
 			<_description type="p"><IDescription type="e">
 				<_text type="a">'Tick' method allows to cyclically triggers the timer.</_text>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">4.27.2020::7:59:8</_modifiedTime>
+			<_modifiedTime type="a">8.13.2020::8:39:34</_modifiedTime>
 			<_lastID type="a">2</_lastID>
 			<_virtual type="a">0</_virtual>
 			<Args type="c">
@@ -8399,10 +8501,10 @@ If the method is called before the time-up, the timer is re-started for the new 
 				<_id type="a">GUID 82099e38-a296-4bc2-bbeb-9231c827b2ee</_id>
 				<_myState type="a">8192</_myState>
 				<_name type="a">Class_Triggered_Timer__Tick</_name>
-				<_modifiedTimeWeak type="a">4.27.2020::7:59:8</_modifiedTimeWeak>
-				<_modifiedTime type="a">4.27.2020::7:59:11</_modifiedTime>
+				<_modifiedTimeWeak type="a">8.13.2020::8:38:57</_modifiedTimeWeak>
+				<_modifiedTime type="a">8.13.2020::8:38:57</_modifiedTime>
 				<_lastID type="a">17</_lastID>
-				<weakCGTime type="a">4.27.2020::7:59:8</weakCGTime>
+				<weakCGTime type="a">8.13.2020::8:38:57</weakCGTime>
 				<strongCGTime type="a">4.27.2020::7:56:11</strongCGTime>
 				<_itsStateChart type="r">
 					<IHandle type="e">
@@ -8410,7 +8512,7 @@ If the method is called before the time-up, the timer is re-started for the new 
 				</_itsStateChart>
 				<_classModifier type="a">Unspecified</_classModifier>
 				<_defNumber type="a">7</_defNumber>
-				<_version type="a">4.27.2020::9:59:11</_version>
+				<_version type="a">8.13.2020::10:38:57</_version>
 				<_baseVersion type="a">1.2.1990::0:0:0</_baseVersion>
 				<_diagram type="s">GUID 782f192e-2224-4c1c-997d-a3beb7f93f72</_diagram>
 				<AggregatesList type="e">
@@ -8751,16 +8853,16 @@ If the method is called before the time-up, the timer is re-started for the new 
 			<IState type="e">
 				<_id type="a">GUID 908a4778-6a44-4108-8b82-a8071ee382cf</_id>
 				<_name type="a">Send_Time_Is_Up</_name>
-				<_modifiedTimeWeak type="a">2.13.2020::13:46:37</_modifiedTimeWeak>
-				<_modifiedTime type="a">2.13.2020::13:46:37</_modifiedTime>
+				<_modifiedTimeWeak type="a">8.13.2020::8:38:57</_modifiedTimeWeak>
+				<_modifiedTime type="a">8.13.2020::8:38:57</_modifiedTime>
 				<_parent type="s">GUID 9a9ea047-9fe1-4b4c-8f76-b16ae2c6d60a</_parent>
 				<_stateType type="a">EventState</_stateType>
 				<_defaultTrans type="s"></_defaultTrans>
 				<_entryAction type="p"><ISendAction type="e">
 					<_id type="a">GUID d620dbeb-1055-40fa-8c83-692c85ab6b11</_id>
 					<_myState type="a">4096</_myState>
-					<_modifiedTimeWeak type="a">2.13.2020::13:46:37</_modifiedTimeWeak>
-					<_modifiedTime type="a">2.13.2020::13:46:37</_modifiedTime>
+					<_modifiedTimeWeak type="a">8.13.2020::8:38:57</_modifiedTimeWeak>
+					<_modifiedTime type="a">8.13.2020::8:38:57</_modifiedTime>
 					<m_hTarget type="r">
 						<IHandle type="e">
 						</IHandle>
@@ -9220,9 +9322,9 @@ If the method is called before the time-up, the timer is re-started for the new 
 				</IPropertyContainer>
 				</_properties>
 				<_name type="a">activitydiagram_0</_name>
-				<_modifiedTimeWeak type="a">4.27.2020::7:56:20</_modifiedTimeWeak>
-				<_modifiedTime type="a">4.27.2020::7:59:11</_modifiedTime>
-				<_lastModifiedTime type="a">4.27.2020::7:59:11</_lastModifiedTime>
+				<_modifiedTimeWeak type="a">8.13.2020::8:38:57</_modifiedTimeWeak>
+				<_modifiedTime type="a">8.13.2020::8:39:34</_modifiedTime>
+				<_lastModifiedTime type="a">8.13.2020::8:39:34</_lastModifiedTime>
 				<m_hReferencedDiagram type="r">
 					<IHandle type="e">
 					</IHandle>
@@ -10944,12 +11046,26 @@ If the method is called before the time-up, the timer is re-started for the new 
 			<_myState type="a">8192</_myState>
 			<_name type="a">Get_Remaining_Time</_name>
 			<_displayName type="a">Get_Remaining_Time( OUT remaining_time : uint32 )</_displayName>
-			<_modifiedTimeWeak type="a">4.27.2020::11:44:30</_modifiedTimeWeak>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Detailed_Design_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Software_Detailed_Design_Metamodel::Stereotypes::SDD_Class</_hsubsystem>
+							<_hname type="a">Public_Method</_hname>
+							<_hid type="a">GUID ecaa2fe0-5d3b-4cc3-9862-9159c7ea16d8</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">8.13.2020::8:39:38</_modifiedTimeWeak>
 			<_description type="p"><IDescription type="e">
 				<_text type="a">Returns the remaining time (in milliseconds) before the end of the timer.</_text>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">4.27.2020::11:44:30</_modifiedTime>
+			<_modifiedTime type="a">8.13.2020::8:39:38</_modifiedTime>
 			<_lastID type="a">3</_lastID>
 			<_virtual type="a">0</_virtual>
 			<_abstract type="a">0</_abstract>
@@ -10965,10 +11081,10 @@ If the method is called before the time-up, the timer is re-started for the new 
 				<_id type="a">GUID 2b9112bc-ba7e-4c58-84c6-5f5a57c86e8e</_id>
 				<_myState type="a">8192</_myState>
 				<_name type="a">Class_Triggered_Timer__Get_Remaining_Time</_name>
-				<_modifiedTimeWeak type="a">4.27.2020::8:8:52</_modifiedTimeWeak>
-				<_modifiedTime type="a">4.27.2020::8:8:55</_modifiedTime>
+				<_modifiedTimeWeak type="a">8.13.2020::8:39:38</_modifiedTimeWeak>
+				<_modifiedTime type="a">8.13.2020::8:39:38</_modifiedTime>
 				<_lastID type="a">77</_lastID>
-				<weakCGTime type="a">4.27.2020::8:8:52</weakCGTime>
+				<weakCGTime type="a">8.13.2020::8:39:38</weakCGTime>
 				<strongCGTime type="a">4.27.2020::7:59:55</strongCGTime>
 				<_itsStateChart type="r">
 					<IHandle type="e">
@@ -11042,7 +11158,7 @@ If the method is called before the time-up, the timer is re-started for the new 
 			<ILabel type="e">
 				<_id type="a">GUID fb1ae11a-7a59-48d4-a93b-b352ec13e107</_id>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+				<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 				<_itsTrigger>NULL</_itsTrigger>
 				<_itsGuard>NULL</_itsGuard>
 				<_itsAction>NULL</_itsAction>
@@ -11076,7 +11192,7 @@ If the method is called before the time-up, the timer is re-started for the new 
 			<ILabel type="e">
 				<_id type="a">GUID edd8626f-4b5a-436f-861d-878254563c51</_id>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+				<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 				<_itsTrigger>NULL</_itsTrigger>
 				<_itsGuard>NULL</_itsGuard>
 				<_itsAction>NULL</_itsAction>
@@ -11166,7 +11282,7 @@ If the method is called before the time-up, the timer is re-started for the new 
 					<_id type="a">GUID 96de8b04-9054-4aac-8113-cbfe4d84f2e9</_id>
 					<_myState type="a">4096</_myState>
 					<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-					<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+					<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 					<_body type="a">remaining_time = Counter*My_Recurrence</_body>
 				</IAction>
 				</_entryAction>
@@ -11717,9 +11833,9 @@ If the method is called before the time-up, the timer is re-started for the new 
 				</IPropertyContainer>
 				</_properties>
 				<_name type="a">activitydiagram_0</_name>
-				<_modifiedTimeWeak type="a">4.27.2020::7:59:55</_modifiedTimeWeak>
-				<_modifiedTime type="a">4.27.2020::8:8:55</_modifiedTime>
-				<_lastModifiedTime type="a">4.27.2020::8:8:55</_lastModifiedTime>
+				<_modifiedTimeWeak type="a">8.13.2020::8:39:38</_modifiedTimeWeak>
+				<_modifiedTime type="a">8.13.2020::8:39:38</_modifiedTime>
+				<_lastModifiedTime type="a">8.13.2020::8:39:38</_lastModifiedTime>
 				<m_hReferencedDiagram type="r">
 					<IHandle type="e">
 					</IHandle>
@@ -12340,12 +12456,26 @@ If the method is called before the time-up, the timer is re-started for the new 
 			<_myState type="a">8192</_myState>
 			<_name type="a">Is_Active</_name>
 			<_displayName type="a">Is_Active( OUT is_active : boolean )</_displayName>
-			<_modifiedTimeWeak type="a">4.27.2020::8:10:26</_modifiedTimeWeak>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Detailed_Design_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Software_Detailed_Design_Metamodel::Stereotypes::SDD_Class</_hsubsystem>
+							<_hname type="a">Public_Method</_hname>
+							<_hid type="a">GUID ecaa2fe0-5d3b-4cc3-9862-9159c7ea16d8</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">8.13.2020::8:39:42</_modifiedTimeWeak>
 			<_description type="p"><IDescription type="e">
 				<_text type="a">'Is_Active' method returns &quot;TRUE&quot; if the timer is active, i.e. has been started and the time is not elapsed.</_text>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">4.27.2020::8:10:26</_modifiedTime>
+			<_modifiedTime type="a">8.13.2020::8:39:42</_modifiedTime>
 			<_lastID type="a">3</_lastID>
 			<_virtual type="a">0</_virtual>
 			<_abstract type="a">0</_abstract>
@@ -12361,10 +12491,10 @@ If the method is called before the time-up, the timer is re-started for the new 
 				<_id type="a">GUID 15ca109e-443e-4557-ad9f-7e83bca1817a</_id>
 				<_myState type="a">8192</_myState>
 				<_name type="a">Class_Triggered_Timer__Is_Active</_name>
-				<_modifiedTimeWeak type="a">4.27.2020::8:10:26</_modifiedTimeWeak>
-				<_modifiedTime type="a">4.27.2020::8:11:25</_modifiedTime>
+				<_modifiedTimeWeak type="a">8.13.2020::8:39:42</_modifiedTimeWeak>
+				<_modifiedTime type="a">8.13.2020::8:39:42</_modifiedTime>
 				<_lastID type="a">21</_lastID>
-				<weakCGTime type="a">4.27.2020::8:10:26</weakCGTime>
+				<weakCGTime type="a">8.13.2020::8:39:42</weakCGTime>
 				<strongCGTime type="a">4.27.2020::8:9:41</strongCGTime>
 				<_itsStateChart type="r">
 					<IHandle type="e">
@@ -13112,9 +13242,9 @@ If the method is called before the time-up, the timer is re-started for the new 
 				</IPropertyContainer>
 				</_properties>
 				<_name type="a">activitydiagram_0</_name>
-				<_modifiedTimeWeak type="a">4.27.2020::8:10:9</_modifiedTimeWeak>
-				<_modifiedTime type="a">4.27.2020::8:11:25</_modifiedTime>
-				<_lastModifiedTime type="a">4.27.2020::8:11:25</_lastModifiedTime>
+				<_modifiedTimeWeak type="a">8.13.2020::8:39:42</_modifiedTimeWeak>
+				<_modifiedTime type="a">8.13.2020::8:39:42</_modifiedTime>
+				<_lastModifiedTime type="a">8.13.2020::8:39:42</_lastModifiedTime>
 				<m_hReferencedDiagram type="r">
 					<IHandle type="e">
 					</IHandle>
@@ -14665,19 +14795,36 @@ If the method is called before the time-up, the timer is re-started for the new 
 			<_myState type="a">8192</_myState>
 			<_name type="a">Counter</_name>
 			<_displayName type="a">counter : uint32 = 0</_displayName>
-			<_modifiedTimeWeak type="a">4.27.2020::11:42:44</_modifiedTimeWeak>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Detailed_Design_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Software_Detailed_Design_Metamodel::Stereotypes::SDD_Class</_hsubsystem>
+							<_hname type="a">Variable_Attribute</_hname>
+							<_hid type="a">GUID 1ab5b469-21ae-4135-9ec4-5adfcbba6a24</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">8.13.2020::8:38:26</_modifiedTimeWeak>
 			<_description type="p"><IDescription type="e">
-				<_text type="a">Internal counter used for timer management.%0D
-%0D
-It is initialized when the 'Start' method is called depending on Recurrence_Millisecond.%0D
-%0D
-It is decremented each time that 'Tick' is called.%0D
-If it reach 0, the event 'Time_Is_Up' is send.%0D
-%0D
-It is reset when 'Stop' is called.</_text>
+				<_textRTF type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 Internal counter used for timer management.\par%0D
+\par%0D
+It is initialized when the 'Start' method is called depending on Recurrence_Millisecond.\par%0D
+\par%0D
+It is \ulwave decremented\ulnone  each time that 'Tick' is called.\par%0D
+If it reach 0, the event 'Time_Is_Up' is send.\par%0D
+\par%0D
+It is reset when 'Stop' is called.\par%0D
+}%0D
+</_textRTF>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">4.27.2020::11:42:44</_modifiedTime>
+			<_modifiedTime type="a">8.13.2020::8:38:26</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
@@ -14688,7 +14835,7 @@ It is reset when 'Stop' is called.</_text>
 				</IHandle>
 			</_typeOf>
 			<_isOrdered type="a">0</_isOrdered>
-			<_protection type="a">iPrivate</_protection>
+			<_protection type="a">iPublic</_protection>
 			<_static type="a">0</_static>
 			<_isReferenceAttr type="a">0</_isReferenceAttr>
 			<_isConstant type="a">0</_isConstant>
@@ -14707,12 +14854,26 @@ It is reset when 'Stop' is called.</_text>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Recurrence_Millisecond</_name>
 			<_displayName type="a">recurrence : E_Recurrence = RECCURENCE_10MS</_displayName>
-			<_modifiedTimeWeak type="a">4.24.2020::18:23:39</_modifiedTimeWeak>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Detailed_Design_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Software_Detailed_Design_Metamodel::Stereotypes::SDD_Class</_hsubsystem>
+							<_hname type="a">Configuration_Parameter</_hname>
+							<_hid type="a">GUID a1930d35-ed9e-409a-bdd8-ec16bd7df6fb</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">8.13.2020::8:38:47</_modifiedTimeWeak>
 			<_description type="p"><IDescription type="e">
 				<_text type="a">Constant attribute that indicates the recurrence of the triggered timer (interval time between two calls of the 'Tick' method).</_text>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">4.24.2020::18:23:39</_modifiedTime>
+			<_modifiedTime type="a">8.13.2020::8:38:47</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
@@ -14723,7 +14884,7 @@ It is reset when 'Stop' is called.</_text>
 				</IHandle>
 			</_typeOf>
 			<_isOrdered type="a">0</_isOrdered>
-			<_protection type="a">iPrivate</_protection>
+			<_protection type="a">iPublic</_protection>
 			<_static type="a">0</_static>
 			<_isReferenceAttr type="a">0</_isReferenceAttr>
 			<_isConstant type="a">1</_isConstant>
@@ -14741,12 +14902,26 @@ It is reset when 'Stop' is called.</_text>
 			<_id type="a">GUID 0e28b573-09cb-400e-b625-cfaa26282c56</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Time_Is_Up</_name>
-			<_modifiedTimeWeak type="a">2.13.2020::12:57:39</_modifiedTimeWeak>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Detailed_Design_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Software_Detailed_Design_Metamodel::Stereotypes::SDD_Class</_hsubsystem>
+							<_hname type="a">SDD_Event</_hname>
+							<_hid type="a">GUID 686d325e-8634-49e1-9f21-5b289108f34b</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">8.13.2020::8:38:57</_modifiedTimeWeak>
 			<_description type="p"><IDescription type="e">
 				<_text type="a">This event indicates that the timer has reached the end of the countdown.</_text>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">2.13.2020::12:57:39</_modifiedTime>
+			<_modifiedTime type="a">8.13.2020::8:38:57</_modifiedTime>
 			<_lastID type="a">2</_lastID>
 			<_virtual type="a">0</_virtual>
 			<Args type="c">
