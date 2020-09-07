@@ -17,25 +17,25 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Detailed_Design_Metamodel.sbsx</_hfilename>
-							<_hsubsystem type="a">Software_Detailed_Design_Metamodel::Stereotypes</_hsubsystem>
-							<_hname type="a">SDD_Package</_hname>
-							<_hid type="a">GUID be799ef8-2ebb-4026-9b54-533e335785fb</_hid>
+							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Project_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Project_Metamodel::Stereotypes</_hsubsystem>
+							<_hname type="a">Software_Package</_hname>
+							<_hid type="a">GUID afb0e42d-a399-4819-bb39-46f0fd0f0fbf</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">8.13.2020::8:40:22</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">9.7.2020::20:2:25</_modifiedTimeWeak>
 			<_description type="p"><IDescription type="e">
 				<_text type="a">This package gathers elements allowing to define the class Class_Triggered_Timer.</_text>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">8.13.2020::8:40:22</_modifiedTime>
-			<_lastID type="a">6</_lastID>
-			<weakCGTime type="a">8.13.2020::8:40:22</weakCGTime>
-			<strongCGTime type="a">4.24.2020::18:22:4</strongCGTime>
+			<_modifiedTime type="a">9.7.2020::20:2:25</_modifiedTime>
+			<_lastID type="a">7</_lastID>
+			<weakCGTime type="a">9.7.2020::20:2:25</weakCGTime>
+			<strongCGTime type="a">9.6.2020::21:20:55</strongCGTime>
 			<_defaultComposite type="s">GUID af14b516-7e9f-4f02-8cf2-9b6a23f071bd</_defaultComposite>
-			<_eventsBaseID type="a">9601</_eventsBaseID>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
 			<_configurationRelatedTime type="a">10.15.2019::8:0:10</_configurationRelatedTime>
 			<AggregatesList type="e">
 				<value>GUID eab7c51d-4ffb-4285-960d-5b779269231f</value>
@@ -43,7 +43,7 @@
 				<value>GUID 64ce0386-2bef-432a-a989-75c46172b15b</value>
 				<value>GUID af14b516-7e9f-4f02-8cf2-9b6a23f071bd</value>
 				<value>GUID c074c1d9-dddb-4098-9ff9-6f997da45135</value>
-				<value>GUID 0e28b573-09cb-400e-b625-cfaa26282c56</value>
+				<value>GUID 1c5ec7c1-cca8-460b-a4cb-243581d614c8</value>
 			</AggregatesList>
 		</ISubsystem>
 		<IDiagram type="e">
@@ -351,15 +351,15 @@
 							<_hm2Class type="a">IStereotype</_hm2Class>
 							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Detailed_Design_Metamodel.sbsx</_hfilename>
 							<_hsubsystem type="a">Software_Detailed_Design_Metamodel::Stereotypes::Diagrams</_hsubsystem>
-							<_hname type="a">SDD_Diagram</_hname>
-							<_hid type="a">GUID cbed8f77-d13d-478e-9f8a-5db7d181741a</_hid>
+							<_hname type="a">SDD_Class_Diagram</_hname>
+							<_hid type="a">GUID 306a724c-fcf5-4198-8d6a-1d31c369487a</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">8.13.2020::8:40:39</_modifiedTime>
-			<_lastModifiedTime type="a">8.13.2020::8:40:39</_lastModifiedTime>
+			<_modifiedTime type="a">9.7.2020::8:46:34</_modifiedTime>
+			<_lastModifiedTime type="a">9.7.2020::8:46:34</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -416,9 +416,9 @@
 			<m_bFreezeCompartmentContent type="a">0</m_bFreezeCompartmentContent>
 			<AggregatesList type="e">
 				<value>GUID bf83386a-62bf-45f7-b757-0f7078a52ca0</value>
-				<value>GUID 00479508-be0d-4b72-a779-469c5975d020</value>
 				<value>GUID 30cecc11-2c55-4d7f-98b3-364e8057da64</value>
-				<value>GUID e50e894a-8c46-43a1-b3ea-4ef32c995169</value>
+				<value>GUID c8545b43-c26f-4a09-a572-cd05835bc195</value>
+				<value>GUID 9a686769-9fa1-4e44-ab78-5a7dc3a66619</value>
 			</AggregatesList>
 		</CGIClassChart>
 		<CGIClass type="e">
@@ -508,87 +508,6 @@
 				</IRPYRawContainer>
 			</Items>
 		</CGICompartment>
-		<CGIGenericElement type="e">
-			<_id type="a">GUID 00479508-be0d-4b72-a779-469c5975d020</_id>
-			<_properties type="p"><IPropertyContainer type="e">
-				<Subjects type="c">
-					<IRPYRawContainer type="e">
-						<size type="a">1</size>
-						<IPropertySubject type="e">
-							<_Name type="a">General</_Name>
-							<Metaclasses type="c">
-								<IRPYRawContainer type="e">
-									<size type="a">1</size>
-									<IPropertyMetaclass type="e">
-										<_Name type="a">Graphics</_Name>
-										<Properties type="c">
-											<IRPYRawContainer type="e">
-												<size type="a">1</size>
-												<IProperty type="e">
-													<_Name type="a">AssociatedImageFile</_Name>
-													<_Type type="a">File</_Type>
-												</IProperty>
-												
-											</IRPYRawContainer>
-										</Properties>
-									</IPropertyMetaclass>
-									
-								</IRPYRawContainer>
-							</Metaclasses>
-						</IPropertySubject>
-						
-					</IRPYRawContainer>
-				</Subjects>
-			</IPropertyContainer>
-			</_properties>
-			<m_type type="a">212</m_type>
-			<m_pModelObject type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IEvent</_hm2Class>
-					<_hid type="a">GUID 0e28b573-09cb-400e-b625-cfaa26282c56</_hid>
-				</IHandle>
-			</m_pModelObject>
-			<m_pParent type="s">GUID bf83386a-62bf-45f7-b757-0f7078a52ca0</m_pParent>
-			<m_name type="p">
-				<CGIText type="e">
-					<m_str type="a">Time_Is_Up()</m_str>
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">5</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_name>
-			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.89394 0 0 0.657408 339 444 </m_transform>
-			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
-			<m_AdditionalLabel type="p">
-				<CGIText type="e">
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">1</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_AdditionalLabel>
-			<m_polygon type="a">4 0 0  0 108  264 108  264 0  </m_polygon>
-			<m_nNameFormat type="a">0</m_nNameFormat>
-			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
-		</CGIGenericElement>
 		<CGIClass type="e">
 			<_id type="a">GUID 30cecc11-2c55-4d7f-98b3-364e8057da64</_id>
 			<_properties type="p"><IPropertyContainer type="e">
@@ -687,7 +606,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">397352</m_drawBehavior>
-			<m_transform type="a">0.334278 0 0 0.247772 280.331 24.4831 </m_transform>
+			<m_transform type="a">0.334278 0 0 0.247772 473.331 24.4831 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -746,6 +665,8 @@
 					
 				</IRPYRawContainer>
 			</Items>
+			<_itemValueOfFontPropertiesMapCount type="a">1</_itemValueOfFontPropertiesMapCount>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
 		</CGICompartment>
 		<CGICompartment type="e">
 			<_id type="a">GUID 311b425c-5fbc-45da-8060-1ed145924225</_id>
@@ -753,6 +674,12 @@
 			<m_displayOption type="a">All</m_displayOption>
 			<m_bShowInherited type="a">1</m_bShowInherited>
 			<m_bOrdered type="a">0</m_bOrdered>
+			<_itemValueOfFontPropertiesMapCount type="a">5</_itemValueOfFontPropertiesMapCount>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
 		</CGICompartment>
 		<CGICompartment type="e">
 			<_id type="a">GUID e1ae6e08-5a41-476f-8135-d40cd000de8c</_id>
@@ -761,50 +688,101 @@
 			<m_bShowInherited type="a">0</m_bShowInherited>
 			<m_bOrdered type="a">0</m_bOrdered>
 		</CGICompartment>
+		<CGIClass type="e">
+			<_id type="a">GUID c8545b43-c26f-4a09-a572-cd05835bc195</_id>
+			<m_type type="a">87</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 1c5ec7c1-cca8-460b-a4cb-243581d614c8</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s">GUID bf83386a-62bf-45f7-b757-0f7078a52ca0</m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_str type="a">Time_Is_Up</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">5</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">4170</m_drawBehavior>
+			<m_transform type="a">0.20491 0 0 0.124777 541.59 430.948 </m_transform>
+			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
+			<m_AdditionalLabel type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">1</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_AdditionalLabel>
+			<m_bFramesetModified type="a">1</m_bFramesetModified>
+			<m_polygon type="a">4 2 329  2 1451  1061 1451  1061 329  </m_polygon>
+			<m_nNameFormat type="a">0</m_nNameFormat>
+			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
+			<frameset type="a">&lt;frameset rows=54%25,46%25&gt;
+&lt;frame name=DescriptionCompartment&gt;
+&lt;frame name=AttributeListCompartment&gt;</frameset>
+			<Attrs type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Attrs>
+			<Operations type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Operations>
+			<AggregatesList type="e">
+				<value>GUID 4b9c0f40-d9d5-4b8f-be7f-acfc76a91de2</value>
+				<value>GUID 8fa449b0-aa19-41b5-8996-b87969a01843</value>
+			</AggregatesList>
+		</CGIClass>
+		<CGICompartment type="e">
+			<_id type="a">GUID 4b9c0f40-d9d5-4b8f-be7f-acfc76a91de2</_id>
+			<m_name type="a">Attribute</m_name>
+			<m_displayOption type="a">All</m_displayOption>
+			<m_bShowInherited type="a">0</m_bShowInherited>
+			<m_bOrdered type="a">0</m_bOrdered>
+		</CGICompartment>
+		<CGICompartment type="e">
+			<_id type="a">GUID 8fa449b0-aa19-41b5-8996-b87969a01843</_id>
+			<m_name type="a">Description</m_name>
+			<m_displayOption type="a">All</m_displayOption>
+			<m_bShowInherited type="a">0</m_bShowInherited>
+			<m_bOrdered type="a">0</m_bOrdered>
+		</CGICompartment>
 		<CGIInheritance type="e">
-			<_id type="a">GUID e50e894a-8c46-43a1-b3ea-4ef32c995169</_id>
-			<_properties type="p"><IPropertyContainer type="e">
-				<Subjects type="c">
-					<IRPYRawContainer type="e">
-						<size type="a">1</size>
-						<IPropertySubject type="e">
-							<_Name type="a">General</_Name>
-							<Metaclasses type="c">
-								<IRPYRawContainer type="e">
-									<size type="a">1</size>
-									<IPropertyMetaclass type="e">
-										<_Name type="a">Graphics</_Name>
-										<Properties type="c">
-											<IRPYRawContainer type="e">
-												<size type="a">1</size>
-												<IProperty type="e">
-													<_Name type="a">ShowLabels</_Name>
-													<_Value type="a">False</_Value>
-													<_Type type="a">Bool</_Type>
-												</IProperty>
-												
-											</IRPYRawContainer>
-										</Properties>
-									</IPropertyMetaclass>
-									
-								</IRPYRawContainer>
-							</Metaclasses>
-						</IPropertySubject>
-						
-					</IRPYRawContainer>
-				</Subjects>
-			</IPropertyContainer>
-			</_properties>
+			<_id type="a">GUID 9a686769-9fa1-4e44-ab78-5a7dc3a66619</_id>
 			<m_type type="a">128</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDependency</_hm2Class>
-					<_hid type="a">GUID 99bef2fe-f85a-4d67-a445-46a6923c2d16</_hid>
+					<_hid type="a">GUID 18158ed1-11eb-4d9c-807d-f503512a24de</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s"></m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
+					<m_str type="a">Time_Is_Up</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -820,15 +798,15 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
+			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_pSource type="s">GUID 30cecc11-2c55-4d7f-98b3-364e8057da64</m_pSource>
 			<m_sourceType type="a">'F'</m_sourceType>
-			<m_pTarget type="s">GUID 00479508-be0d-4b72-a779-469c5975d020</m_pTarget>
+			<m_pTarget type="s">GUID c8545b43-c26f-4a09-a572-cd05835bc195</m_pTarget>
 			<m_targetType type="a">'T'</m_targetType>
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
 				<CGIText type="e">
-					<m_str type="a">Event_Sending</m_str>
+					<m_str type="a">Send_Event</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -837,17 +815,20 @@
 							<m_bgFlag type="a">0</m_bgFlag>
 						</IColor>
 					</m_color>
-					<m_position type="a">1 0 0  </m_position>
+					<m_position type="a">4 -6 -9  79 -9  79 5  -6 5  </m_position>
 					<m_nIdent type="a">0</m_nIdent>
 					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_transform type="a">1 0 0 1 349 262 </m_transform>
+					<m_nHorizontalSpacing type="a">-8</m_nHorizontalSpacing>
+					<m_nVerticalSpacing type="a">-2</m_nVerticalSpacing>
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">0</m_line_style>
-			<m_SourcePort type="a">531 890 </m_SourcePort>
-			<m_TargetPort type="a">132 54 </m_TargetPort>
+			<m_SourcePort type="a">532 1451 </m_SourcePort>
+			<m_TargetPort type="a">534 329 </m_TargetPort>
 			<m_ShowName type="a">0</m_ShowName>
 			<m_ShowStereotype type="a">1</m_ShowStereotype>
 		</CGIInheritance>
@@ -4481,15 +4462,15 @@
 							<_hm2Class type="a">IStereotype</_hm2Class>
 							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Detailed_Design_Metamodel.sbsx</_hfilename>
 							<_hsubsystem type="a">Software_Detailed_Design_Metamodel::Stereotypes::Diagrams</_hsubsystem>
-							<_hname type="a">SDD_Diagram</_hname>
-							<_hid type="a">GUID cbed8f77-d13d-478e-9f8a-5db7d181741a</_hid>
+							<_hname type="a">SDD_Class_Diagram</_hname>
+							<_hid type="a">GUID 306a724c-fcf5-4198-8d6a-1d31c369487a</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">8.13.2020::8:40:22</_modifiedTime>
-			<_lastModifiedTime type="a">8.13.2020::8:40:22</_lastModifiedTime>
+			<_modifiedTime type="a">9.7.2020::20:2:25</_modifiedTime>
+			<_lastModifiedTime type="a">9.7.2020::20:2:25</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -4547,9 +4528,9 @@
 			<m_bFreezeCompartmentContent type="a">0</m_bFreezeCompartmentContent>
 			<AggregatesList type="e">
 				<value>GUID 0fe9f364-b81c-48a8-9c8e-8dd8f82b8d82</value>
-				<value>GUID c559fb05-aac1-4881-8fd1-6b85065c0ed8</value>
 				<value>GUID c0ba27f3-1b8e-43c0-bb81-012eb66c066f</value>
-				<value>GUID cce83909-b628-4ad7-900c-2a4fe46a659e</value>
+				<value>GUID b4ccb356-b694-4269-b85b-eb0095018c6e</value>
+				<value>GUID 2f226a01-6847-40e4-8151-9bb0f67ef0bf</value>
 			</AggregatesList>
 		</CGIClassChart>
 		<CGIClass type="e">
@@ -4642,88 +4623,6 @@
 				</IRPYRawContainer>
 			</Items>
 		</CGICompartment>
-		<CGIGenericElement type="e">
-			<_id type="a">GUID c559fb05-aac1-4881-8fd1-6b85065c0ed8</_id>
-			<_properties type="p"><IPropertyContainer type="e">
-				<Subjects type="c">
-					<IRPYRawContainer type="e">
-						<size type="a">1</size>
-						<IPropertySubject type="e">
-							<_Name type="a">General</_Name>
-							<Metaclasses type="c">
-								<IRPYRawContainer type="e">
-									<size type="a">1</size>
-									<IPropertyMetaclass type="e">
-										<_Name type="a">Graphics</_Name>
-										<Properties type="c">
-											<IRPYRawContainer type="e">
-												<size type="a">1</size>
-												<IProperty type="e">
-													<_Name type="a">AssociatedImageFile</_Name>
-													<_Type type="a">File</_Type>
-												</IProperty>
-												
-											</IRPYRawContainer>
-										</Properties>
-									</IPropertyMetaclass>
-									
-								</IRPYRawContainer>
-							</Metaclasses>
-						</IPropertySubject>
-						
-					</IRPYRawContainer>
-				</Subjects>
-			</IPropertyContainer>
-			</_properties>
-			<_rmmServerID type="a">-1</_rmmServerID>
-			<m_type type="a">212</m_type>
-			<m_pModelObject type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IEvent</_hm2Class>
-					<_hid type="a">GUID 0e28b573-09cb-400e-b625-cfaa26282c56</_hid>
-				</IHandle>
-			</m_pModelObject>
-			<m_pParent type="s">GUID 0fe9f364-b81c-48a8-9c8e-8dd8f82b8d82</m_pParent>
-			<m_name type="p">
-				<CGIText type="e">
-					<m_str type="a">Time_Is_Up()</m_str>
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">5</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_name>
-			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.89394 0 0 0.657408 339 444 </m_transform>
-			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
-			<m_AdditionalLabel type="p">
-				<CGIText type="e">
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">1</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_AdditionalLabel>
-			<m_polygon type="a">4 0 0  0 108  264 108  264 0  </m_polygon>
-			<m_nNameFormat type="a">0</m_nNameFormat>
-			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
-		</CGIGenericElement>
 		<CGIClass type="e">
 			<_id type="a">GUID c0ba27f3-1b8e-43c0-bb81-012eb66c066f</_id>
 			<_properties type="p"><IPropertyContainer type="e">
@@ -4881,47 +4780,101 @@
 			<m_displayOption type="a">All</m_displayOption>
 			<m_bShowInherited type="a">1</m_bShowInherited>
 			<m_bOrdered type="a">0</m_bOrdered>
+			<_itemValueOfFontPropertiesMapCount type="a">5</_itemValueOfFontPropertiesMapCount>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+		</CGICompartment>
+		<CGIClass type="e">
+			<_id type="a">GUID b4ccb356-b694-4269-b85b-eb0095018c6e</_id>
+			<m_type type="a">87</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 1c5ec7c1-cca8-460b-a4cb-243581d614c8</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s">GUID 0fe9f364-b81c-48a8-9c8e-8dd8f82b8d82</m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_str type="a">Time_Is_Up</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">5</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">4170</m_drawBehavior>
+			<m_transform type="a">0.163362 0 0 0.101604 370.673 443.572 </m_transform>
+			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
+			<m_AdditionalLabel type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">1</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_AdditionalLabel>
+			<m_polygon type="a">4 2 329  2 1451  1061 1451  1061 329  </m_polygon>
+			<m_nNameFormat type="a">0</m_nNameFormat>
+			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
+			<frameset type="a">&lt;frameset rows=50%25,50%25&gt;
+&lt;frame name=DescriptionCompartment&gt;
+&lt;frame name=AttributeListCompartment&gt;</frameset>
+			<Attrs type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Attrs>
+			<Operations type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Operations>
+			<AggregatesList type="e">
+				<value>GUID 55e48361-ac4f-4cb6-8619-06bb2e06c005</value>
+				<value>GUID 96d4b98c-1f1e-4bbe-b7ed-6722fe52acfc</value>
+			</AggregatesList>
+		</CGIClass>
+		<CGICompartment type="e">
+			<_id type="a">GUID 55e48361-ac4f-4cb6-8619-06bb2e06c005</_id>
+			<m_name type="a">Attribute</m_name>
+			<m_displayOption type="a">All</m_displayOption>
+			<m_bShowInherited type="a">0</m_bShowInherited>
+			<m_bOrdered type="a">0</m_bOrdered>
+		</CGICompartment>
+		<CGICompartment type="e">
+			<_id type="a">GUID 96d4b98c-1f1e-4bbe-b7ed-6722fe52acfc</_id>
+			<m_name type="a">Description</m_name>
+			<m_displayOption type="a">All</m_displayOption>
+			<m_bShowInherited type="a">0</m_bShowInherited>
+			<m_bOrdered type="a">0</m_bOrdered>
 		</CGICompartment>
 		<CGIInheritance type="e">
-			<_id type="a">GUID cce83909-b628-4ad7-900c-2a4fe46a659e</_id>
-			<_properties type="p"><IPropertyContainer type="e">
-				<Subjects type="c">
-					<IRPYRawContainer type="e">
-						<size type="a">1</size>
-						<IPropertySubject type="e">
-							<_Name type="a">General</_Name>
-							<Metaclasses type="c">
-								<IRPYRawContainer type="e">
-									<size type="a">1</size>
-									<IPropertyMetaclass type="e">
-										<_Name type="a">Graphics</_Name>
-										<Properties type="c">
-											<IRPYRawContainer type="e">
-												<size type="a">1</size>
-												<IProperty type="e">
-													<_Name type="a">ShowLabels</_Name>
-													<_Value type="a">False</_Value>
-													<_Type type="a">Bool</_Type>
-												</IProperty>
-												
-											</IRPYRawContainer>
-										</Properties>
-									</IPropertyMetaclass>
-									
-								</IRPYRawContainer>
-							</Metaclasses>
-						</IPropertySubject>
-						
-					</IRPYRawContainer>
-				</Subjects>
-			</IPropertyContainer>
-			</_properties>
-			<_rmmServerID type="a">-1</_rmmServerID>
+			<_id type="a">GUID 2f226a01-6847-40e4-8151-9bb0f67ef0bf</_id>
 			<m_type type="a">128</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDependency</_hm2Class>
-					<_hid type="a">GUID 99bef2fe-f85a-4d67-a445-46a6923c2d16</_hid>
+					<_hid type="a">GUID 18158ed1-11eb-4d9c-807d-f503512a24de</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s"></m_pParent>
@@ -4945,12 +4898,12 @@
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
 			<m_pSource type="s">GUID c0ba27f3-1b8e-43c0-bb81-012eb66c066f</m_pSource>
 			<m_sourceType type="a">'F'</m_sourceType>
-			<m_pTarget type="s">GUID c559fb05-aac1-4881-8fd1-6b85065c0ed8</m_pTarget>
+			<m_pTarget type="s">GUID b4ccb356-b694-4269-b85b-eb0095018c6e</m_pTarget>
 			<m_targetType type="a">'T'</m_targetType>
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
 				<CGIText type="e">
-					<m_str type="a">Event_Sending</m_str>
+					<m_str type="a">Send_Event</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -4969,7 +4922,7 @@
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">0</m_line_style>
 			<m_SourcePort type="a">529 890 </m_SourcePort>
-			<m_TargetPort type="a">132 53 </m_TargetPort>
+			<m_TargetPort type="a">528 890 </m_TargetPort>
 			<m_ShowName type="a">0</m_ShowName>
 			<m_ShowStereotype type="a">1</m_ShowStereotype>
 		</CGIInheritance>
@@ -5044,7 +4997,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">8.13.2020::8:39:42</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">9.7.2020::8:21:41</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -5055,9 +5008,9 @@
 				<_text type="a">The class Class_Triggered_Timer is used to measure a defined elapsed time and to send an event on time-up. It shall be periodically triggered by a OS cyclic task.</_text>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">8.13.2020::8:39:42</_modifiedTime>
-			<_lastID type="a">8</_lastID>
-			<weakCGTime type="a">8.13.2020::8:39:42</weakCGTime>
+			<_modifiedTime type="a">9.7.2020::8:21:41</_modifiedTime>
+			<_lastID type="a">9</_lastID>
+			<weakCGTime type="a">9.7.2020::8:21:41</weakCGTime>
 			<strongCGTime type="a">8.13.2020::8:38:13</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -5065,7 +5018,7 @@
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
 			<AggregatesList type="e">
-				<value>GUID 99bef2fe-f85a-4d67-a445-46a6923c2d16</value>
+				<value>GUID 18158ed1-11eb-4d9c-807d-f503512a24de</value>
 				<value>GUID 436699f7-0dff-4f6a-8e6d-995902f97e0d</value>
 				<value>GUID 6aa72842-d044-4c59-ae98-67e6d6ffd395</value>
 				<value>GUID abdb5a41-8321-4a28-b768-ed912b8f5a7a</value>
@@ -5076,7 +5029,7 @@
 			</AggregatesList>
 		</IClass>
 		<IDependency type="e">
-			<_id type="a">GUID 99bef2fe-f85a-4d67-a445-46a6923c2d16</_id>
+			<_id type="a">GUID 18158ed1-11eb-4d9c-807d-f503512a24de</_id>
 			<_myState type="a">2048</_myState>
 			<_name type="a">Time_Is_Up</_name>
 			<Stereotypes type="c">
@@ -5086,19 +5039,19 @@
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
 							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Detailed_Design_Metamodel.sbsx</_hfilename>
-							<_hsubsystem type="a">Software_Detailed_Design_Metamodel::Stereotypes::SDD_Class</_hsubsystem>
-							<_hname type="a">Event_Sending</_hname>
-							<_hid type="a">GUID d291d4d1-7c14-4297-a64a-9d1c5e46cc2e</_hid>
+							<_hsubsystem type="a">Software_Detailed_Design_Metamodel::Stereotypes::Shared</_hsubsystem>
+							<_hname type="a">Send_Event</_hname>
+							<_hid type="a">GUID 8d3c01aa-c9f5-4df6-91f9-66e5fd75fd0e</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">8.13.2020::8:39:12</_modifiedTimeWeak>
-			<_modifiedTime type="a">8.13.2020::8:39:12</_modifiedTime>
+			<_modifiedTimeWeak type="a">9.7.2020::8:20:49</_modifiedTimeWeak>
+			<_modifiedTime type="a">9.7.2020::8:20:49</_modifiedTime>
 			<_dependsOn type="r">
 				<INObjectHandle type="e">
-					<_hm2Class type="a">IEvent</_hm2Class>
-					<_hid type="a">GUID 0e28b573-09cb-400e-b625-cfaa26282c56</_hid>
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 1c5ec7c1-cca8-460b-a4cb-243581d614c8</_hid>
 				</INObjectHandle>
 			</_dependsOn>
 			<_dependent type="r">
@@ -5127,14 +5080,14 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">8.13.2020::8:39:25</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">9.7.2020::8:21:30</_modifiedTimeWeak>
 			<_description type="p"><IDescription type="e">
 				<_text type="a">'Start' method allows to start the timer for a given amount of time.%0D
 %0D
 If the method is called before the time-up, the timer is re-started for the new given amount of time.</_text>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">8.13.2020::8:39:25</_modifiedTime>
+			<_modifiedTime type="a">9.7.2020::8:21:30</_modifiedTime>
 			<_lastID type="a">3</_lastID>
 			<_virtual type="a">0</_virtual>
 			<_abstract type="a">0</_abstract>
@@ -5150,10 +5103,10 @@ If the method is called before the time-up, the timer is re-started for the new 
 				<_id type="a">GUID 733acb5b-3768-40da-bf83-11d1f97bedae</_id>
 				<_myState type="a">8192</_myState>
 				<_name type="a">Class_Triggered_Timer__Start</_name>
-				<_modifiedTimeWeak type="a">8.13.2020::8:38:57</_modifiedTimeWeak>
-				<_modifiedTime type="a">8.13.2020::8:38:57</_modifiedTime>
+				<_modifiedTimeWeak type="a">9.7.2020::8:21:30</_modifiedTimeWeak>
+				<_modifiedTime type="a">9.7.2020::8:21:30</_modifiedTime>
 				<_lastID type="a">65</_lastID>
-				<weakCGTime type="a">8.13.2020::8:38:57</weakCGTime>
+				<weakCGTime type="a">9.7.2020::8:21:30</weakCGTime>
 				<strongCGTime type="a">4.27.2020::7:45:1</strongCGTime>
 				<_itsStateChart type="r">
 					<IHandle type="e">
@@ -5161,7 +5114,7 @@ If the method is called before the time-up, the timer is re-started for the new 
 				</_itsStateChart>
 				<_classModifier type="a">Unspecified</_classModifier>
 				<_defNumber type="a">20</_defNumber>
-				<_version type="a">8.13.2020::10:38:57</_version>
+				<_version type="a">9.7.2020::10:21:30</_version>
 				<_baseVersion type="a">1.2.1990::0:0:0</_baseVersion>
 				<_diagram type="s">GUID e268893b-1f94-45c2-91e0-1f71e3441031</_diagram>
 				<AggregatesList type="e">
@@ -5461,25 +5414,23 @@ If the method is called before the time-up, the timer is re-started for the new 
 			</IState>
 			<IState type="e">
 				<_id type="a">GUID 998caf2f-2446-46c0-9dce-3e2c1e8ace3f</_id>
-				<_name type="a">Send_Time_Is_Up</_name>
-				<_modifiedTimeWeak type="a">8.13.2020::8:38:57</_modifiedTimeWeak>
-				<_modifiedTime type="a">8.13.2020::8:38:57</_modifiedTime>
+				<_name type="a">Time_Is_Up</_name>
+				<_modifiedTimeWeak type="a">9.7.2020::8:21:30</_modifiedTimeWeak>
+				<_modifiedTime type="a">9.7.2020::8:21:30</_modifiedTime>
 				<_parent type="s">GUID 1d3e0a2c-3329-44e4-9a43-3cd946f9b7b4</_parent>
 				<_stateType type="a">EventState</_stateType>
 				<_defaultTrans type="s"></_defaultTrans>
 				<_entryAction type="p"><ISendAction type="e">
 					<_id type="a">GUID 91576656-c214-418c-8f51-31c3167be25c</_id>
 					<_myState type="a">4096</_myState>
-					<_modifiedTimeWeak type="a">8.13.2020::8:38:57</_modifiedTimeWeak>
-					<_modifiedTime type="a">8.13.2020::8:38:57</_modifiedTime>
+					<_modifiedTimeWeak type="a">9.7.2020::8:20:37</_modifiedTimeWeak>
+					<_modifiedTime type="a">9.7.2020::8:20:37</_modifiedTime>
 					<m_hTarget type="r">
 						<IHandle type="e">
 						</IHandle>
 					</m_hTarget>
 					<m_hEvent type="r">
 						<IHandle type="e">
-							<_hm2Class type="a">IEvent</_hm2Class>
-							<_hid type="a">GUID 0e28b573-09cb-400e-b625-cfaa26282c56</_hid>
 						</IHandle>
 					</m_hEvent>
 				</ISendAction>
@@ -6151,9 +6102,9 @@ If the method is called before the time-up, the timer is re-started for the new 
 				</IPropertyContainer>
 				</_properties>
 				<_name type="a">activitydiagram_0</_name>
-				<_modifiedTimeWeak type="a">8.13.2020::8:38:57</_modifiedTimeWeak>
-				<_modifiedTime type="a">8.13.2020::8:39:25</_modifiedTime>
-				<_lastModifiedTime type="a">8.13.2020::8:39:25</_lastModifiedTime>
+				<_modifiedTimeWeak type="a">9.7.2020::8:21:19</_modifiedTimeWeak>
+				<_modifiedTime type="a">9.7.2020::8:21:30</_modifiedTime>
+				<_lastModifiedTime type="a">9.7.2020::8:21:30</_lastModifiedTime>
 				<m_hReferencedDiagram type="r">
 					<IHandle type="e">
 					</IHandle>
@@ -6346,7 +6297,6 @@ If the method is called before the time-up, the timer is re-started for the new 
 													<size type="a">1</size>
 													<IProperty type="e">
 														<_Name type="a">ShowNotation</_Name>
-														<_Value type="a">FullNotation</_Value>
 														<_Type type="a">Enum</_Type>
 														<_ExtraTypeInfo type="a">Name,Label,FullNotation,Event</_ExtraTypeInfo>
 													</IProperty>
@@ -6371,6 +6321,7 @@ If the method is called before the time-up, the timer is re-started for the new 
 													<size type="a">1</size>
 													<IProperty type="e">
 														<_Name type="a">ShowLabels</_Name>
+														<_Value type="a">False</_Value>
 														<_Type type="a">Bool</_Type>
 													</IProperty>
 													
@@ -6396,7 +6347,7 @@ If the method is called before the time-up, the timer is re-started for the new 
 				<m_pParent type="s">GUID 41475bf0-95e2-4755-ab39-0f9ddcab8412</m_pParent>
 				<m_name type="p">
 					<CGIText type="e">
-						<m_str type="a">Send_Time_Is_Up</m_str>
+						<m_str type="a">Time_Is_Up</m_str>
 						<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 						<m_color type="p">
 							<IColor type="e">
@@ -8475,12 +8426,12 @@ If the method is called before the time-up, the timer is re-started for the new 
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">8.13.2020::8:39:34</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">9.7.2020::8:21:41</_modifiedTimeWeak>
 			<_description type="p"><IDescription type="e">
 				<_text type="a">'Tick' method allows to cyclically triggers the timer.</_text>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">8.13.2020::8:39:34</_modifiedTime>
+			<_modifiedTime type="a">9.7.2020::8:21:41</_modifiedTime>
 			<_lastID type="a">2</_lastID>
 			<_virtual type="a">0</_virtual>
 			<Args type="c">
@@ -8501,10 +8452,10 @@ If the method is called before the time-up, the timer is re-started for the new 
 				<_id type="a">GUID 82099e38-a296-4bc2-bbeb-9231c827b2ee</_id>
 				<_myState type="a">8192</_myState>
 				<_name type="a">Class_Triggered_Timer__Tick</_name>
-				<_modifiedTimeWeak type="a">8.13.2020::8:38:57</_modifiedTimeWeak>
-				<_modifiedTime type="a">8.13.2020::8:38:57</_modifiedTime>
+				<_modifiedTimeWeak type="a">9.7.2020::8:21:41</_modifiedTimeWeak>
+				<_modifiedTime type="a">9.7.2020::8:21:41</_modifiedTime>
 				<_lastID type="a">17</_lastID>
-				<weakCGTime type="a">8.13.2020::8:38:57</weakCGTime>
+				<weakCGTime type="a">9.7.2020::8:21:41</weakCGTime>
 				<strongCGTime type="a">4.27.2020::7:56:11</strongCGTime>
 				<_itsStateChart type="r">
 					<IHandle type="e">
@@ -8512,7 +8463,7 @@ If the method is called before the time-up, the timer is re-started for the new 
 				</_itsStateChart>
 				<_classModifier type="a">Unspecified</_classModifier>
 				<_defNumber type="a">7</_defNumber>
-				<_version type="a">8.13.2020::10:38:57</_version>
+				<_version type="a">9.7.2020::10:21:41</_version>
 				<_baseVersion type="a">1.2.1990::0:0:0</_baseVersion>
 				<_diagram type="s">GUID 782f192e-2224-4c1c-997d-a3beb7f93f72</_diagram>
 				<AggregatesList type="e">
@@ -8852,25 +8803,23 @@ If the method is called before the time-up, the timer is re-started for the new 
 			</IState>
 			<IState type="e">
 				<_id type="a">GUID 908a4778-6a44-4108-8b82-a8071ee382cf</_id>
-				<_name type="a">Send_Time_Is_Up</_name>
-				<_modifiedTimeWeak type="a">8.13.2020::8:38:57</_modifiedTimeWeak>
-				<_modifiedTime type="a">8.13.2020::8:38:57</_modifiedTime>
+				<_name type="a">Time_Is_Up</_name>
+				<_modifiedTimeWeak type="a">9.7.2020::8:21:41</_modifiedTimeWeak>
+				<_modifiedTime type="a">9.7.2020::8:21:41</_modifiedTime>
 				<_parent type="s">GUID 9a9ea047-9fe1-4b4c-8f76-b16ae2c6d60a</_parent>
 				<_stateType type="a">EventState</_stateType>
 				<_defaultTrans type="s"></_defaultTrans>
 				<_entryAction type="p"><ISendAction type="e">
 					<_id type="a">GUID d620dbeb-1055-40fa-8c83-692c85ab6b11</_id>
 					<_myState type="a">4096</_myState>
-					<_modifiedTimeWeak type="a">8.13.2020::8:38:57</_modifiedTimeWeak>
-					<_modifiedTime type="a">8.13.2020::8:38:57</_modifiedTime>
+					<_modifiedTimeWeak type="a">9.7.2020::8:20:28</_modifiedTimeWeak>
+					<_modifiedTime type="a">9.7.2020::8:20:28</_modifiedTime>
 					<m_hTarget type="r">
 						<IHandle type="e">
 						</IHandle>
 					</m_hTarget>
 					<m_hEvent type="r">
 						<IHandle type="e">
-							<_hm2Class type="a">IEvent</_hm2Class>
-							<_hid type="a">GUID 0e28b573-09cb-400e-b625-cfaa26282c56</_hid>
 						</IHandle>
 					</m_hEvent>
 				</ISendAction>
@@ -9322,9 +9271,9 @@ If the method is called before the time-up, the timer is re-started for the new 
 				</IPropertyContainer>
 				</_properties>
 				<_name type="a">activitydiagram_0</_name>
-				<_modifiedTimeWeak type="a">8.13.2020::8:38:57</_modifiedTimeWeak>
-				<_modifiedTime type="a">8.13.2020::8:39:34</_modifiedTime>
-				<_lastModifiedTime type="a">8.13.2020::8:39:34</_lastModifiedTime>
+				<_modifiedTimeWeak type="a">9.7.2020::8:21:41</_modifiedTimeWeak>
+				<_modifiedTime type="a">9.7.2020::8:21:53</_modifiedTime>
+				<_lastModifiedTime type="a">9.7.2020::8:21:53</_lastModifiedTime>
 				<m_hReferencedDiagram type="r">
 					<IHandle type="e">
 					</IHandle>
@@ -10004,7 +9953,6 @@ If the method is called before the time-up, the timer is re-started for the new 
 													<size type="a">1</size>
 													<IProperty type="e">
 														<_Name type="a">ShowNotation</_Name>
-														<_Value type="a">FullNotation</_Value>
 														<_Type type="a">Enum</_Type>
 														<_ExtraTypeInfo type="a">Name,Label,FullNotation,Event</_ExtraTypeInfo>
 													</IProperty>
@@ -10029,6 +9977,7 @@ If the method is called before the time-up, the timer is re-started for the new 
 													<size type="a">1</size>
 													<IProperty type="e">
 														<_Name type="a">ShowLabels</_Name>
+														<_Value type="a">False</_Value>
 														<_Type type="a">Bool</_Type>
 													</IProperty>
 													
@@ -10054,7 +10003,7 @@ If the method is called before the time-up, the timer is re-started for the new 
 				<m_pParent type="s">GUID b4760e33-ed23-433b-8951-f996ec41ddf7</m_pParent>
 				<m_name type="p">
 					<CGIText type="e">
-						<m_str type="a">Send_Time_Is_Up</m_str>
+						<m_str type="a">Time_Is_Up</m_str>
 						<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 						<m_color type="p">
 							<IColor type="e">
@@ -14862,7 +14811,7 @@ It is reset when 'Stop' is called.\par%0D
 							<_hm2Class type="a">IStereotype</_hm2Class>
 							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Detailed_Design_Metamodel.sbsx</_hfilename>
 							<_hsubsystem type="a">Software_Detailed_Design_Metamodel::Stereotypes::SDD_Class</_hsubsystem>
-							<_hname type="a">Configuration_Parameter</_hname>
+							<_hname type="a">Configuration_Attribute</_hname>
 							<_hid type="a">GUID a1930d35-ed9e-409a-bdd8-ec16bd7df6fb</_hid>
 						</IHandle>
 					
@@ -14898,8 +14847,8 @@ It is reset when 'Stop' is called.\par%0D
 			<_modifiedTime type="a">4.24.2020::18:23:12</_modifiedTime>
 			<_value type="a">10</_value>
 		</ILiteralSpecification>
-		<IEvent type="e">
-			<_id type="a">GUID 0e28b573-09cb-400e-b625-cfaa26282c56</_id>
+		<IClass type="e">
+			<_id type="a">GUID 1c5ec7c1-cca8-460b-a4cb-243581d614c8</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Time_Is_Up</_name>
 			<Stereotypes type="c">
@@ -14908,28 +14857,34 @@ It is reset when 'Stop' is called.\par%0D
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Detailed_Design_Metamodel.sbsx</_hfilename>
-							<_hsubsystem type="a">Software_Detailed_Design_Metamodel::Stereotypes::SDD_Class</_hsubsystem>
-							<_hname type="a">SDD_Event</_hname>
-							<_hid type="a">GUID 686d325e-8634-49e1-9f21-5b289108f34b</_hid>
+							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Interfaces</_hsubsystem>
+							<_hname type="a">Event_Interface</_hname>
+							<_hid type="a">GUID a606fb06-732a-41c1-b270-a594f4ed47dd</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">8.13.2020::8:38:57</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">9.7.2020::8:47:20</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hid type="a">GUID eab7c51d-4ffb-4285-960d-5b779269231f</_hid>
+				</IHandle>
+			</_theMainDiagram>
 			<_description type="p"><IDescription type="e">
-				<_text type="a">This event indicates that the timer has reached the end of the countdown.</_text>
+				<_text type="a">This event indicates that a timer has reached the end of the countdown.</_text>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">8.13.2020::8:38:57</_modifiedTime>
-			<_lastID type="a">2</_lastID>
-			<_virtual type="a">0</_virtual>
-			<Args type="c">
-				<IRPYRawContainer type="e">
-					<size type="a">0</size>
-				</IRPYRawContainer>
-			</Args>
-		</IEvent>
+			<_modifiedTime type="a">9.7.2020::8:47:20</_modifiedTime>
+			<weakCGTime type="a">9.7.2020::8:47:20</weakCGTime>
+			<strongCGTime type="a">9.7.2020::8:20:49</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
 		
 	</RHAPSODY-MODEL>
 	<OslcLinks type="c">

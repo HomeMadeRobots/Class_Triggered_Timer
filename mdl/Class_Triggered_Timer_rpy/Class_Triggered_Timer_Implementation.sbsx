@@ -17,19 +17,19 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Implementation_Metamodel.sbsx</_hfilename>
-							<_hsubsystem type="a">Software_Implementation_Metamodel::Stereotypes</_hsubsystem>
-							<_hname type="a">IMPL_Package</_hname>
-							<_hid type="a">GUID 682fe33e-0545-42e4-b788-b6aab98dcd8e</_hid>
+							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Project_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Project_Metamodel::Stereotypes</_hsubsystem>
+							<_hname type="a">Software_Package</_hname>
+							<_hid type="a">GUID afb0e42d-a399-4819-bb39-46f0fd0f0fbf</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">8.13.2020::8:56:39</_modifiedTimeWeak>
-			<_modifiedTime type="a">8.13.2020::8:56:39</_modifiedTime>
+			<_modifiedTimeWeak type="a">9.6.2020::21:21:4</_modifiedTimeWeak>
+			<_modifiedTime type="a">9.6.2020::21:21:4</_modifiedTime>
 			<_lastID type="a">1</_lastID>
-			<weakCGTime type="a">8.13.2020::8:56:39</weakCGTime>
-			<strongCGTime type="a">8.13.2020::8:45:28</strongCGTime>
+			<weakCGTime type="a">9.6.2020::21:21:4</weakCGTime>
+			<strongCGTime type="a">9.6.2020::21:21:4</strongCGTime>
 			<_defaultComposite type="s">GUID f4b6a5eb-f77a-45ad-b21e-35d1d3eee91f</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
 			<_configurationRelatedTime type="a">8.13.2020::8:44:51</_configurationRelatedTime>
@@ -811,7 +811,7 @@
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
 							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Implementation_Metamodel.sbsx</_hfilename>
-							<_hsubsystem type="a">Software_Implementation_Metamodel::Stereotypes::Files</_hsubsystem>
+							<_hsubsystem type="a">Software_Implementation_Metamodel::Stereotypes</_hsubsystem>
 							<_hname type="a">Implementation_File</_hname>
 							<_hid type="a">GUID 76068085-5ce8-416c-81a0-105fa38a041d</_hid>
 						</IHandle>
@@ -861,7 +861,7 @@
 							<IHandle type="e">
 								<_hm2Class type="a">IStereotype</_hm2Class>
 								<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Implementation_Metamodel.sbsx</_hfilename>
-								<_hsubsystem type="a">Software_Implementation_Metamodel::Stereotypes::Files</_hsubsystem>
+								<_hsubsystem type="a">Software_Implementation_Metamodel::Stereotypes</_hsubsystem>
 								<_hname type="a">Implemented_Element</_hname>
 								<_hid type="a">GUID e1410ed5-8b64-43ee-a054-e77fd03a4de8</_hid>
 							</IHandle>
@@ -918,7 +918,7 @@
 					<IHandle type="e">
 						<_hm2Class type="a">ITag</_hm2Class>
 						<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Implementation_Metamodel.sbsx</_hfilename>
-						<_hsubsystem type="a">Software_Implementation_Metamodel::Stereotypes::Files</_hsubsystem>
+						<_hsubsystem type="a">Software_Implementation_Metamodel::Stereotypes</_hsubsystem>
 						<_hclass type="a">Implementation_File</_hclass>
 						<_hname type="a">File_Name</_hname>
 						<_hid type="a">GUID b0ede556-fe02-4ae9-ae12-b64dfa7c02f0</_hid>
@@ -947,7 +947,7 @@
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
 							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Implementation_Metamodel.sbsx</_hfilename>
-							<_hsubsystem type="a">Software_Implementation_Metamodel::Stereotypes::Files</_hsubsystem>
+							<_hsubsystem type="a">Software_Implementation_Metamodel::Stereotypes</_hsubsystem>
 							<_hname type="a">Implementation_File</_hname>
 							<_hid type="a">GUID 76068085-5ce8-416c-81a0-105fa38a041d</_hid>
 						</IHandle>
@@ -997,7 +997,7 @@
 							<IHandle type="e">
 								<_hm2Class type="a">IStereotype</_hm2Class>
 								<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Implementation_Metamodel.sbsx</_hfilename>
-								<_hsubsystem type="a">Software_Implementation_Metamodel::Stereotypes::Files</_hsubsystem>
+								<_hsubsystem type="a">Software_Implementation_Metamodel::Stereotypes</_hsubsystem>
 								<_hname type="a">Implemented_Element</_hname>
 								<_hid type="a">GUID e1410ed5-8b64-43ee-a054-e77fd03a4de8</_hid>
 							</IHandle>
@@ -1054,7 +1054,7 @@
 					<IHandle type="e">
 						<_hm2Class type="a">ITag</_hm2Class>
 						<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Implementation_Metamodel.sbsx</_hfilename>
-						<_hsubsystem type="a">Software_Implementation_Metamodel::Stereotypes::Files</_hsubsystem>
+						<_hsubsystem type="a">Software_Implementation_Metamodel::Stereotypes</_hsubsystem>
 						<_hclass type="a">Implementation_File</_hclass>
 						<_hname type="a">File_Name</_hname>
 						<_hid type="a">GUID b0ede556-fe02-4ae9-ae12-b64dfa7c02f0</_hid>
